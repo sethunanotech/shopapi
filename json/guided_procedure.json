@@ -1,0 +1,76 @@
+{
+    "operations" : [
+        {
+            "id": 1,
+            "title" : "Washing & Cleaning",
+            "estimatedTime" : "02:50",
+            "checklist" : [
+                {
+                    "title" : "Engine Oil",
+                    "estimatedtime": "0.23",
+                    "action" : "Replace"
+                },
+                {
+                    "title" : "Engine oil filter",
+                    "estimatedtime": "0.08",
+                    "action" : "Replace"
+                },
+                {
+                    "title" : "Coolant",
+                    "estimatedtime": "0.02",
+                    "action" : "inspect"
+                }
+            ],
+            "proceduretext" : "",
+            "video" : [
+                {
+                    "url" : "http://localhost:3000/video/01.mp4",
+                    "type" : "video"
+                },
+                {
+                    "url": "http://localhost:3000/video/02.mp4",
+                    "type" : "video"
+                }
+            ],
+            "tekalert" : "",
+            "tsb" : "",
+            "othersupportiveinfo" : ""
+        },
+        {
+            "id": 2,
+            "title" : "Paid Service 40K Kms",
+            "estimatedTime" : "01:30",
+            "checklist" : [
+                {
+                    "title" : "Engine Oil",
+                    "estimatedtime": "0.23",
+                    "action" : "Replace"
+                },
+                {
+                    "title" : "Engine oil filter",
+                    "estimatedtime": "0.08",
+                    "action" : "Replace"
+                },
+                {
+                    "title" : "Coolant",
+                    "estimatedtime": "0.02",
+                    "action" : "inspect"
+                }
+            ],
+            "proceduretext" : "",
+            "video" : [
+                {
+                    "url" : "http://localhost:3000/video/03.mp4",
+                    "type" : "video"
+                },
+                {
+                    "url": "http://localhost:3000/video/04.mp4",
+                    "type" : "video"
+                }
+            ],
+            "tekalert" : "",
+            "tsb" : "",
+            "othersupportiveinfo" : ""                       
+        }
+    ]
+}
